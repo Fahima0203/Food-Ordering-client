@@ -15,13 +15,13 @@ root.render(
     <Router>
       <Routes>
         <Route path='/' element={<Home />}></Route>
-        <Route path="/FoodDisplay" element={<FoodDisplay />}></Route>
-        <Route path="/Login" element={<Login />}></Route>
-        <Route path="/SignUp" element={<Signuppage />}></Route>
-        <Route path="/Contact" element={<Contact />}></Route>
-        <Route path="/FoodDetailsForm" element={<FoodDetailsForm />}></Route>
-        <Route path='/FoodAdded' element={<FoodAdded/>}></Route>
-        <Route path='/AddedtoCart' element={<AddedtoCart/>}></Route>
+        <Route path="FoodDisplay" element={<FoodDisplay />}></Route>
+        <Route path="Login" element={<Login />}></Route>
+        <Route path="SignUp" element={<Signuppage />}></Route>
+        <Route path="Contact" element={<Contact />}></Route>
+        <Route path="FoodDetailsForm" element={<FoodDetailsForm />}></Route>
+        <Route path='FoodAdded' element={<FoodAdded/>}></Route>
+        <Route path='AddedtoCart' element={<AddedtoCart/>}></Route>
       </Routes>
     </Router>
   </React.StrictMode>
