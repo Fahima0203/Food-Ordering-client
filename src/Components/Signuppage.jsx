@@ -23,8 +23,9 @@ function Signuppage() {
     console.log(item);
     axios({
       method: 'post',
-      url: 'http://localhost:5001/uploadSignup',
+      // url: 'http://localhost:5001/uploadSignup',
       //url: "https://flora-host.herokuapp.com/Signup",
+      url:"https://food-ordering-server.onrender.com/uploadSignup",
       data: item //formData
     })
   }

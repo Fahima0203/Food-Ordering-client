@@ -15,7 +15,8 @@ function FoodDisplay() {
   useEffect(() => {
     axios
       //.get("https://flora-host.herokuapp.com/fetch")
-      .get("http://localhost:5001/fetch")
+      // .get("http://localhost:5001/fetch")
+      .get("https://food-ordering-server.onrender.com/fetch")
       .then((res) => setData(res.data))
       .catch((err) => console.log(err, "it has an error"));
   });
