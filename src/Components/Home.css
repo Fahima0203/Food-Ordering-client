@@ -1,0 +1,43 @@
+@keyframes myfirst {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#img {
+  padding-left: 30%;
+  width: 70%;
+  height: 100px;
+  position: relative;
+  /* animation: myfirst 5s linear 2s infinite alternate; */
+}
+
+.homepage {
+  background-color: rgba(188, 255, 112, 0.638);
+  padding: 13px;
+  margin: 15px;
+  border: 5px;
+  border-radius: 14px;
+  text-align: center;
+}
