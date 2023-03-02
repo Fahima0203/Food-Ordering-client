@@ -19,7 +19,7 @@ function FoodDetailsForm() {
             method: 'post',
             // url: 'http://localhost:5001/upload',
             //url: "https://flora-host.herokuapp.com/upload",
-            url:'https://food-ordering-server1.onrender.com/upload',
+            url:'https://food-ordering-server.onrender.com/upload',
             data: item //formData
         })
     }

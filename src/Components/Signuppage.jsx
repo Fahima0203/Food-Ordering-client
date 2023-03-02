@@ -25,7 +25,7 @@ function Signuppage() {
       method: 'post',
       // url: 'http://localhost:5001/uploadSignup',
       //url: "https://flora-host.herokuapp.com/Signup",
-      url:"https://food-ordering-server1.onrender.com/uploadSignup",
+      url:"https://food-ordering-server.onrender.com/uploadSignup",
       data: item //formData
     })
   }
