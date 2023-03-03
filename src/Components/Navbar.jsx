@@ -18,8 +18,8 @@ function Nbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/FoodDisplay">Order Food <RestaurantIcon /> </Nav.Link>
-            <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href="https://food-ordering-client.onrender.com/FoodDisplay">Order Food <RestaurantIcon /> </Nav.Link>
+            <Nav.Link href="https://food-ordering-client.onrender.com/Contact">Contact</Nav.Link>
           </Nav>
           <button class="btn btn-primary" variant="outline-success" > <NavDropdown.Item href="/Login">Admin </NavDropdown.Item></button>
         </Navbar.Collapse>
