@@ -10,7 +10,7 @@ import img5 from '../asserts/images/home5.jpeg'
 import img6 from '../asserts/images/home6.jpeg';
 import img0 from '../asserts/images/chocolate-cake.jpeg';
 
-const colors = [ img4, img3, img4, img1, img5, img6, img0]
+const colors = [ img4, img3, img2, img1, img5, img6, img0]
 const delay = 3000;
 
 function Slideshow() {
