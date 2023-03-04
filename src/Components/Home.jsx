@@ -6,51 +6,51 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForwardIos';
 import Slideshow from './SlideShow.jsx';
 class Home extends Component {
-    constructor() {
-        super()
+    // constructor() {
+    //     super()
 
-        this.onClickForward = this.onClickForward.bind(this)
-        this.onClickBack = this.onClickBack.bind(this)
+    //     this.onClickForward = this.onClickForward.bind(this)
+    //     this.onClickBack = this.onClickBack.bind(this)
 
-        const img1 = require('../asserts/images/home12.jpeg');
-        // const img1 = require('../asserts/images/home9.jpeg');
-        const img2 = require('../asserts/images/home4.webp');
-        const img3 = require('../asserts/images/home6.webp');
-        const img4 = require('../asserts/images/home5.webp');
-        const img5 = require('../asserts/images/home7.jpeg');
-        // const img6 = require('../asserts/images/home10.webp');
+    //     // const img1 = require('../asserts/images/home12.jpeg');
+    //     // const img1 = require('../asserts/images/home9.jpeg');
+    //     const img2 = require('../asserts/images/home4.webp');
+    //     const img3 = require('../asserts/images/home6.webp');
+    //     const img4 = require('../asserts/images/home5.webp');
+    //     const img5 = require('../asserts/images/home7.jpeg');
+    //     // const img6 = require('../asserts/images/home10.webp');
 
-        this.state = {
-            index: 0,
-            imgList: [img1, img2, img3, img4, img5]
-        }
-    }
+    //     this.state = {
+    //         index: 0,
+    //         imgList: [img1, img2, img3, img4, img5]
+    //     }
+    // }
 
-    onClickForward() {
-        if (this.state.index + 1 === this.state.imgList.length) {
-            this.setState({
-                index: 0
-            })
-        }
-        else {
-            this.setState({
-                index: this.state.index + 1
-            })
-        }
-    }
+    // onClickForward() {
+    //     if (this.state.index + 1 === this.state.imgList.length) {
+    //         this.setState({
+    //             index: 0
+    //         })
+    //     }
+    //     else {
+    //         this.setState({
+    //             index: this.state.index + 1
+    //         })
+    //     }
+    // }
 
-    onClickBack() {
-        if (this.state.index - 1 === -1) {
-            this.setState({
-                index: this.state.imgList.length - 1
-            })
-        }
-        else {
-            this.setState({
-                index: this.state.index - 1
-            })
-        }
-    }
+    // onClickBack() {
+    //     if (this.state.index - 1 === -1) {
+    //         this.setState({
+    //             index: this.state.imgList.length - 1
+    //         })
+    //     }
+    //     else {
+    //         this.setState({
+    //             index: this.state.index - 1
+    //         })
+    //     }
+    // }
 
     render() {
         return (

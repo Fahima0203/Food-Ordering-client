@@ -11,7 +11,8 @@ import { ToastContainer, toast } from 'react-toastify';
 function FoodDetailsForm() {
 
     const [item, setItem] = useState({ foodName: '', image: '', desc: '', price: ' ' });
-    const successNotify = () => toast.success("Successfully Submitted!");
+    const successNotify = () =>{ toast.success("Successfully Submitted!");
+    this.setState({foodName:'', image:'',desc:'',price:''})}
     const handleFormSubmit = (event) => {
         event.preventDefault();
         console.log(item)
@@ -22,6 +23,7 @@ function FoodDetailsForm() {
             url:'https://food-ordering-server.onrender.com/upload',
             data: item //formData
         })
+        this.setState({foodName:'', image:'',desc:'',price:''})
     }
 
     return (

@@ -1,12 +1,16 @@
 import React from 'react';
 import './slideshow.css'
-import img1 from '../asserts/images/home8.webp';
-import img2 from '../asserts/images/home6.webp';
-import img3 from '../asserts/images/home4.webp';
-import img4 from '../asserts/images/home5.webp';
-import img5 from '../asserts/images/home7.jpeg';
 
-const colors = [img1, img3, img2, img4, img5]
+
+import img1 from '../asserts/images/home1.webp';
+import img2 from '../asserts/images/home2.webp';
+import img3 from '../asserts/images/home3.jpeg';
+import img4 from '../asserts/images/home4.webp';
+import img5 from '../asserts/images/home5.jpeg'
+import img6 from '../asserts/images/home6.jpeg';
+import img0 from '../asserts/images/chocolate-cake.jpeg';
+
+const colors = [ img4, img3, img4, img1, img5, img6, img0]
 const delay = 3000;
 
 function Slideshow() {
